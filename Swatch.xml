@@ -489,6 +489,7 @@ license:           Creative Commons NC-BY-SA-4.0
 		<!-- Tarjetas -->
 		<carouselItemColor>101010C8</carouselItemColor>
 		<carouselSelectedItemColor>0038D8FF</carouselSelectedItemColor>
+		<carouselFallbackImage>./_inc/caratulas/default.png</carouselFallbackImage>
 
 		<!-- Tamaño y separación -->
 		<logoAlignment>center</logoAlignment>
