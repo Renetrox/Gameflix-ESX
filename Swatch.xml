@@ -186,18 +186,18 @@ license:           Creative Commons NC-BY-SA-4.0
                 <zIndex>100</zIndex>
             </image>
             
-            <video name="mostPlayedVideo">
-    <origin>0 1</origin>
-                <pos>0.840 0.75</pos>
-    <maxSize>0.16 0.25</maxSize>
-    
-
-    <delay>5.0</delay>
+            <!-- ES-X PR #62: fondo de video aleatorio a pantalla completa; bajo flix.png -->
+            <video name="randomGameVideo">
+    <!-- ES-X PR #62: vídeo aleatorio como fondo de pantalla completo. -->
+    <!-- Se dibuja debajo de flix.png (zIndex 40), textos y carrusel. -->
+    <origin>0 0</origin>
+    <pos>0 0</pos>
+    <size>1 1</size>
+    <delay>1.0</delay>
     <showSnapshotNoVideo>false</showSnapshotNoVideo>
     <showSnapshotDelay>false</showSnapshotDelay>
-
     <visible>true</visible>
-    <zIndex>130</zIndex>
+    <zIndex>30</zIndex>
 </video>
             
             
@@ -302,17 +302,14 @@ license:           Creative Commons NC-BY-SA-4.0
 	<!-- ===================================================== -->
 <!-- Vista pequeña tipo preview -->
 	<video name="md_video">
-		<origin>0 1</origin>
-                <pos>0.840 0.75</pos>
-    <maxSize>0.16 0.25</maxSize>
-    
-
-    <delay>5.0</delay>
-    <showSnapshotNoVideo>true</showSnapshotNoVideo>
-    <showSnapshotDelay>true</showSnapshotDelay>
-
+		<origin>0 0</origin>
+    <pos>0 0</pos>
+    <size>1 1</size>
+    <delay>1.0</delay>
+    <showSnapshotNoVideo>false</showSnapshotNoVideo>
+    <showSnapshotDelay>false</showSnapshotDelay>
     <visible>true</visible>
-    <zIndex>130</zIndex>
+    <zIndex>14</zIndex>
 </video>
 
 
@@ -754,7 +751,7 @@ license:           Creative Commons NC-BY-SA-4.0
 		<view name="system, basic, detailed, grid, video">
 			<image name="background"><zIndex>1</zIndex></image>
 			<image name="md_marquee"><zIndex>200</zIndex></image>
-			<video name="md_video"><zIndex>30</zIndex></video>
+			<video name="md_video"><zIndex>14</zIndex></video>
 		</view>
 		<view name="detailed">
 			<image name="background" extra="true"><zIndex>1</zIndex></image>
