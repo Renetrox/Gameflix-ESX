@@ -19,9 +19,9 @@ license:           Creative Commons NC-BY-SA-4.0
     <view name="system, basic, detailed, grid, video">
         <image name="background" extra="true">
             <path>./_inc/images/bg_bokeh.jpg</path>
-            <origin>0 0</origin>
-            <pos>0 0</pos>
-            <size>1 1</size>
+             <origin>0 0</origin>
+    <pos>0.284 0.00</pos>
+    <size>0.726 0.900</size>
         </image>
         
        <image name="md_marquee">
@@ -38,9 +38,9 @@ license:           Creative Commons NC-BY-SA-4.0
 
         <!-- Imagen base del sistema -->
         <image name="background_system_image" extra="true">
-            <origin>0 0</origin>
-            <pos>0 0</pos>
-            <size>1 1</size>
+             <origin>0 0</origin>
+    <pos>0.284 0.00</pos>
+    <size>0.726 0.900</size>
         </image>
 
 
@@ -187,12 +187,10 @@ license:           Creative Commons NC-BY-SA-4.0
             </image>
             
             <!-- ES-X PR #62: fondo de video aleatorio a pantalla completa; bajo flix.png -->
-            <video name="randomGameVideo">
-    <!-- ES-X PR #62: vídeo aleatorio como fondo de pantalla completo. -->
-    <!-- Se dibuja debajo de flix.png (zIndex 40), textos y carrusel. -->
+           <video name="randomGameVideo">
     <origin>0 0</origin>
-    <pos>0 0</pos>
-    <size>1 1</size>
+    <pos>0.284 0.00</pos>
+    <size>0.726 0.900</size>
     <delay>1.0</delay>
     <showSnapshotNoVideo>false</showSnapshotNoVideo>
     <showSnapshotDelay>false</showSnapshotDelay>
@@ -261,9 +259,9 @@ license:           Creative Commons NC-BY-SA-4.0
 		</image>
 		
 		<image name="md_background">
-	<origin>0 0</origin>
-	<pos>0 0</pos>
-	<size>1 1</size>
+	 <origin>0 0</origin>
+    <pos>0.284 0.00</pos>
+    <size>0.726 0.900</size>
 	<zIndex>14</zIndex>
 </image>
 		
@@ -303,8 +301,8 @@ license:           Creative Commons NC-BY-SA-4.0
 <!-- Vista pequeña tipo preview -->
 	<video name="md_video">
 		<origin>0 0</origin>
-    <pos>0 0</pos>
-    <size>1 1</size>
+    <pos>0.284 0.00</pos>
+    <size>0.726 0.900</size>
     <delay>1.0</delay>
     <showSnapshotNoVideo>false</showSnapshotNoVideo>
     <showSnapshotDelay>false</showSnapshotDelay>
