@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<theme>
+    <formatVersion>7</formatVersion>
+    <variables>
+        <whoPlays>Who's playing?</whoPlays>
+        <whoPlaysFontSize>0.115</whoPlaysFontSize>
+    </variables>
+    <language name="es">
+        <variables>
+            <whoPlays>¿Quién juega?</whoPlays>
+            <whoPlaysFontSize>0.115</whoPlaysFontSize>
+        </variables>
+    </language>
+    <language name="en">
+        <variables>
+            <whoPlays>Who's playing?</whoPlays>
+        </variables>
+    </language>
+    <language name="fr">
+        <variables>
+            <whoPlays>Qui joue ?</whoPlays>
+            <whoPlaysFontSize>0.115</whoPlaysFontSize>
+        </variables>
+    </language>
+    <language name="pt">
+        <variables>
+            <whoPlays>Quem vai jogar?</whoPlays>
+            <whoPlaysFontSize>0.105</whoPlaysFontSize>
+        </variables>
+    </language>
+    <language name="de">
+        <variables>
+            <whoPlays>Wer spielt?</whoPlays>
+            <whoPlaysFontSize>0.115</whoPlaysFontSize>
+        </variables>
+    </language>
+    <language name="it">
+        <variables>
+            <whoPlays>Chi gioca?</whoPlays>
+            <whoPlaysFontSize>0.115</whoPlaysFontSize>
+        </variables>
+    </language>
+    <language name="nl">
+        <variables>
+            <whoPlays>Wie speelt?</whoPlays>
+            <whoPlaysFontSize>0.115</whoPlaysFontSize>
+        </variables>
+    </language>
+    <language name="ja">
+        <variables>
+            <whoPlays>だれが遊ぶ？</whoPlays>
+            <whoPlaysFontSize>0.110</whoPlaysFontSize>
+        </variables>
+    </language>
+    <language name="ru">
+        <variables>
+            <whoPlays>Кто играет?</whoPlays>
+            <whoPlaysFontSize>0.110</whoPlaysFontSize>
+        </variables>
+    </language>
+    <language name="gn">
+        <variables>
+            <whoPlays>Máva piko oñembosaráita?</whoPlays>
+            <whoPlaysFontSize>0.080</whoPlaysFontSize>
+        </variables>
+    </language>
+    <view name="splash">
+        <splash name="splash">
+            <backgroundColor>030303</backgroundColor>
+        </splash>
+        <image name="background">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./_inc/images/main1.png</path>
+            <zIndex>0</zIndex>
+        </image>
+        <text name="welcome_message" extra="true">
+            <origin>0 0</origin>
+            <pos>0.10 0.185</pos>
+            <size>0.80 0.13</size>
+            <fontPath>./_inc/fonts/NetflixSans-Bold.otf</fontPath>
+            <fontSize>${whoPlaysFontSize}</fontSize>
+            <alignment>center</alignment>
+            <color>FFFFFFFF</color>
+            <text>${whoPlays}</text>
+            <zIndex>30</zIndex>
+        </text>
+        <image name="progressbar, progressbar:active">
+            <origin>0 0</origin>
+            <pos>0.22 0.910</pos>
+            <size>0.56 0.012</size>
+            <visible>true</visible>
+            <zIndex>20</zIndex>
+        </image>
+        <image name="progressbar">
+            <color>3A3A3ACC</color>
+        </image>
+        <image name="progressbar:active">
+            <color>E50914FF</color>
+        </image>
+        <text name="label">
+            <pos>0.22 0.858</pos>
+            <size>0.56 0.040</size>
+            <fontPath>./_inc/fonts/NetflixSans-Medium.otf</fontPath>
+            <fontSize>0.026</fontSize>
+            <alignment>center</alignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>BFBFBFFF</color>
+            <zIndex>140</zIndex>
+        </text>
+        <image name="user_avatar" extra="true">
+            <origin>0.5 0.5</origin>
+            <pos>0.384 0.545</pos>
+            <maxSize>0.176 0.310</maxSize>
+            <path>${AVATAR_PATH}</path>
+            <zIndex>115</zIndex>
+        </image>
+        <text name="user_name_shadow" extra="true">
+            <pos>0.196 0.712</pos>
+            <fontPath>./_inc/fonts/NetflixSans-Medium.otf</fontPath>
+            <fontSize>0.043</fontSize>
+            <color>000000AA</color>
+            <text>${USER_NAME}</text>
+            <zIndex>119</zIndex>
+            <origin>0 0</origin>
+            <size>0.378 0.065</size>
+            <alignment>center</alignment>
+        </text>
+        <text name="user_name" extra="true">
+            <pos>0.195 0.710</pos>
+            <fontPath>./_inc/fonts/NetflixSans-Medium.otf</fontPath>
+            <fontSize>0.043</fontSize>
+            <color>FFFFFFFF</color>
+            <text>${USER_NAME}</text>
+            <zIndex>120</zIndex>
+            <origin>0 0</origin>
+            <size>0.378 0.065</size>
+            <alignment>center</alignment>
+        </text>
+    </view>
+</theme>
